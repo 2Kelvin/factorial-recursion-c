@@ -10,7 +10,7 @@ factorial(num) = num * (num -1) * (num 1 - 1) * (num -1 - 1 -1); /* upto 1 */
 
 This formula can be simplified using recursion like so:
 ```c
-factorial(num) = num * factorial(n - 1);
+factorial(num) = num * factorial(num - 1);
 ```
 
 The factorial of 0 is always 1
